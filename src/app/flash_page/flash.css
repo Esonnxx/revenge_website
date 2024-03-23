@@ -1,0 +1,10 @@
+/* styles.css */
+
+@keyframes fade-in {
+  0% {
+    opacity: 0.5; /* 初始透明度，可以根據需要調整 */
+  }
+  100% {
+    opacity: 1; /* 最終透明度，即變亮 */
+  }
+}
