@@ -24,7 +24,7 @@ const CustomButton: React.FC<CustomButtonProps> = ({
         outline: 'none',
         color: 'white',
         fontWeight: 'bold',
-        backgroundImage: 'linear-gradient(to right, #1A1F98, #5EABB0)',
+        background: '#7814C8',
       }}>
       {buttonText}
     </button>
