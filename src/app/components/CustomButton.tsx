@@ -24,7 +24,7 @@ const CustomButton: React.FC<CustomButtonProps> = ({
         outline: 'none',
         color: 'white',
         fontWeight: 'bold',
-        background: '#7814C8',
+        background: 'purple',
       }}>
       {buttonText}
     </button>
