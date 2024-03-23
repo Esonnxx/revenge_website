@@ -62,7 +62,7 @@ export default function Home() {
               textAlign: 'center',
             }}>
             <h1 style={{ color: '#7814C8' }}>關於靈堂</h1>
-            <p style={{ color: 'black', marginTop: '40px' }}>
+            <p style={{ color: 'black', marginTop: '20px' }}>
               在報仇靈堂可使用善根，對特定具有惡的人報仇，每三個善根可執行一次。
             </p>
             <p style={{ color: 'black', marginTop: '20px' }}>
