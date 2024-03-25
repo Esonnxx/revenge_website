@@ -19,7 +19,7 @@ const Ballpage: React.FC = () => {
 
   useEffect(() => {
     if (isClickNextButton) {
-      router.push('/produceB_page')
+      router.push('/produceCharm_page')
     }
     setClickNextButton(false)
   }, [isClickNextButton, router])
@@ -49,10 +49,9 @@ const Ballpage: React.FC = () => {
               </p>
             </div>
             <div
-              style={{ left: '15%', top: '30%' }}
+              style={{ left: '20%', top: '35%' }}
               className="absolute text-center">
-              <p className="text-xl">調製符水</p>
-              <p>請將杯子放置於凹槽中，符水會開始調製</p>
+              <p>請默念三遍咒語，為符水注入法力</p>
             </div>
             <div
               style={{ left: '4%', top: '40%', height: '40%' }}

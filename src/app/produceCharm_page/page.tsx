@@ -19,7 +19,7 @@ const Ballpage: React.FC = () => {
 
   useEffect(() => {
     if (isClickNextButton) {
-      router.push('/produceB_page')
+      router.push('/sendCharm_page')
     }
     setClickNextButton(false)
   }, [isClickNextButton, router])
@@ -42,17 +42,17 @@ const Ballpage: React.FC = () => {
             <div
               style={{ left: '4%', top: '10%' }}
               className="absolute rounded-2xl w-11/12 h-1/6 bg-stone-600 opacity-60 text-center p-2">
-              <p>符水</p>
-              <p>辛酸</p>
+              <p>符咒</p>
+              <p>身心痠痛符</p>
               <p>
                 給予使用身心痠痛符者能量，能夠注入與身心疼痛相關的報仇並傳遞
               </p>
             </div>
             <div
-              style={{ left: '15%', top: '30%' }}
+              style={{ left: '12%', top: '30%' }}
               className="absolute text-center">
-              <p className="text-xl">調製符水</p>
-              <p>請將杯子放置於凹槽中，符水會開始調製</p>
+              <p className="text-xl">製作符咒</p>
+              <p>請使用筆在符紙上寫下與身心疼痛相關的報仇</p>
             </div>
             <div
               style={{ left: '4%', top: '40%', height: '40%' }}

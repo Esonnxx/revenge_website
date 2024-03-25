@@ -40,29 +40,20 @@ const Ballpage: React.FC = () => {
             }}
             className="absolute left-0 w-full h-5/6 bg-black opacity-100 text-center">
             <div
-              style={{ left: '4%', top: '10%' }}
-              className="absolute rounded-2xl w-11/12 h-1/6 bg-stone-600 opacity-60 text-center p-2">
-              <p>符水</p>
-              <p>辛酸</p>
-              <p>
-                給予使用身心痠痛符者能量，能夠注入與身心疼痛相關的報仇並傳遞
-              </p>
-            </div>
-            <div
-              style={{ left: '15%', top: '30%' }}
+              style={{ left: '12%', top: '2%' }}
               className="absolute text-center">
-              <p className="text-xl">調製符水</p>
-              <p>請將杯子放置於凹槽中，符水會開始調製</p>
+              <p className="text-xl">傳送符咒</p>
+              <p>請將完成的符咒放在傳送口，將報仇傳送出去</p>
             </div>
             <div
-              style={{ left: '4%', top: '40%', height: '40%' }}
+              style={{ left: '4%', top: '12%', height: '40%' }}
               className="absolute rounded-2xl w-11/12  bg-stone-600 opacity-60 text-center"></div>
           </div>
           <div className="absolute" style={{ top: '90%', width: '100%' }}>
             <CustomButton
               widthValue={50}
               onClick={handleNextButton}
-              buttonText="下一步"
+              buttonText="完成"
             />
           </div>
         </div>
