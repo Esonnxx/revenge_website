@@ -7,9 +7,7 @@ import { useRouter } from 'next/navigation'
 
 import { useEffect, useState } from 'react'
 const Ballpage: React.FC = () => {
-  const isClickPackageBtn = useSelector(
-    (state: RootState) => state.packContainerState?.isclickBtn
-  )
+  const [isClickNextButton, setClickNextButton] = useState<boolean>(false)
   const [isClickExcuteButton, setClickExcuteButton] = useState<boolean>(false)
   const router = useRouter()
 
@@ -20,15 +18,16 @@ const Ballpage: React.FC = () => {
   }
   const handleNextButton = () => {
     console.log('clicked next btn')
+    setClickNextButton(true)
     console.log()
   }
 
-  // useEffect(() => {
-  //   if (isClickNextButton) {
-  //     router.push('/charm_page')
-  //   }
-  //   setClickNextButton(false)
-  // }, [isClickNextButton, router])
+  useEffect(() => {
+    if (isClickNextButton) {
+      router.push('/produce_page')
+    }
+    setClickNextButton(false)
+  }, [isClickNextButton, router])
   return (
     <main>
       <div className="relative">
