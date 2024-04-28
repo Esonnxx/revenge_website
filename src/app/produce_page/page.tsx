@@ -67,7 +67,7 @@ const Ballpage: React.FC = () => {
               />
             </div>
           </div>
-          <div className="absolute" style={{ top: '90%', width: '100%' }}>
+          <div className="absolute" style={{ top: '95%', width: '100%' }}>
             <CustomButton
               widthValue={50}
               onClick={handleNextButton}
