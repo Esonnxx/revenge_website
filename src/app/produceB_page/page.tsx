@@ -55,14 +55,22 @@ const Ballpage: React.FC = () => {
               <p>請默念三遍咒語，為符水注入法力</p>
             </div>
             <div
-              style={{ left: '4%', top: '40%', height: '35%' }}
-              className="absolute rounded-2xl w-11/12  bg-stone-600 opacity-60 text-center">
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                position: 'absolute',
+                left: '4%',
+                top: '40%',
+                height: '30%',
+              }}
+              className="absolute rounded-2xl w-11/12 text-center">
               <Image
                 src="/2.png"
                 alt="2"
                 layout="fixed"
-                width={380}
-                height={380}
+                width={300}
+                height={300}
                 objectFit="contain"
               />
             </div>
