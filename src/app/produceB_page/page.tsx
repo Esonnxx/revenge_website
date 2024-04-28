@@ -55,7 +55,7 @@ const Ballpage: React.FC = () => {
               <p>請默念三遍咒語，為符水注入法力</p>
             </div>
             <div
-              style={{ left: '4%', top: '40%', height: '40%' }}
+              style={{ left: '4%', top: '40%', height: '35%' }}
               className="absolute rounded-2xl w-11/12  bg-stone-600 opacity-60 text-center">
               <Image
                 src="/2.png"
