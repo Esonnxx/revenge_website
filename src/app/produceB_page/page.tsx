@@ -63,7 +63,7 @@ const Ballpage: React.FC = () => {
                 left: '4%',
                 top: '40%',
                 height: '30%',
-                marginTop: '3%',
+                marginTop: '9%',
               }}
               className="w-11/12 text-center">
               <Image
