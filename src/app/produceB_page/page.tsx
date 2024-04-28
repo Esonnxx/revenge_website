@@ -63,8 +63,9 @@ const Ballpage: React.FC = () => {
                 left: '4%',
                 top: '40%',
                 height: '30%',
+                marginTop: '3%',
               }}
-              className="absolute rounded-2xl w-11/12 text-center">
+              className="w-11/12 text-center">
               <Image
                 src="/2.png"
                 alt="2"
