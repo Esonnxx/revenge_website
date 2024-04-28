@@ -6,7 +6,7 @@ import type { RootState } from '../GlobalRedux/store'
 import { useRouter } from 'next/navigation'
 import { clickPackContainer } from '../GlobalRedux/Features/appStates/packContainerSlice'
 import { useEffect, useState } from 'react'
-const badfortunePage: React.FC = () => {
+const BadfortunePage: React.FC = () => {
   const isClickPackageBtn = useSelector(
     (state: RootState) => state.packContainerState?.isclickBtn
   )
@@ -67,4 +67,4 @@ const badfortunePage: React.FC = () => {
     </main>
   )
 }
-export default badfortunePage
+export default BadfortunePage
