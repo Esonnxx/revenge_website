@@ -19,7 +19,7 @@ const Ballpage: React.FC = () => {
 
   useEffect(() => {
     if (isClickNextButton) {
-      router.push('/produceB_page')
+      router.push('/end_page')
     }
     setClickNextButton(false)
   }, [isClickNextButton, router])
@@ -47,7 +47,16 @@ const Ballpage: React.FC = () => {
             </div>
             <div
               style={{ left: '4%', top: '12%', height: '40%' }}
-              className="absolute rounded-2xl w-11/12  bg-stone-600 opacity-60 text-center"></div>
+              className="absolute rounded-2xl w-11/12  bg-stone-600 opacity-60 text-center">
+              <Image
+                src="/4.gif"
+                alt="Homepage"
+                layout="fixed"
+                width={400}
+                height={400}
+                objectFit="contain"
+              />
+            </div>
           </div>
           <div className="absolute" style={{ top: '90%', width: '100%' }}>
             <CustomButton

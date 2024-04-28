@@ -4,11 +4,17 @@ interface CustomButtonProps {
   onClick: () => void
   buttonText: string
   widthValue: number
+  backgroundColor?: string
+  textColor?: string
+  opacityValue?: number
 }
 const CustomButton: React.FC<CustomButtonProps> = ({
   onClick,
   buttonText,
   widthValue,
+  backgroundColor = 'purple',
+  textColor = 'white',
+  opacityValue = 1,
 }) => {
   return (
     <button
@@ -22,9 +28,10 @@ const CustomButton: React.FC<CustomButtonProps> = ({
         padding: '15px',
         borderRadius: '20px',
         outline: 'none',
-        color: 'white',
+        color: textColor,
         fontWeight: 'bold',
-        background: 'purple',
+        background: backgroundColor,
+        opacity: opacityValue,
       }}>
       {buttonText}
     </button>

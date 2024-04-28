@@ -33,7 +33,7 @@ const Ballpage: React.FC = () => {
             layout="fill"
             objectFit="cover"
           />
-          <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
+          <div className="absolute top-0 left-0 w-full h-full bg-black opacity-20"></div>
           <div
             style={{
               top: '16.66%',
@@ -56,7 +56,16 @@ const Ballpage: React.FC = () => {
             </div>
             <div
               style={{ left: '4%', top: '40%', height: '40%' }}
-              className="absolute rounded-2xl w-11/12  bg-stone-600 opacity-60 text-center"></div>
+              className="absolute rounded-2xl w-11/12  bg-stone-600 opacity-60 text-center">
+              <Image
+                src="/1.gif"
+                alt="1"
+                layout="fixed"
+                width={400}
+                height={400}
+                objectFit="contain"
+              />
+            </div>
           </div>
           <div className="absolute" style={{ top: '90%', width: '100%' }}>
             <CustomButton

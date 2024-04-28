@@ -18,6 +18,10 @@ export default function Home() {
     setguideIsVisible(false)
     console.log('clicked understand btn')
   }
+  const handleAboutBtn = () => {
+    setguideIsVisible(true)
+    console.log('clicked about btn')
+  }
   const handleNextBtn = () => {
     setClickNextButton(true)
     console.log('clicked next btn')
@@ -78,12 +82,24 @@ export default function Home() {
           </div>
         )}
         {!guideIsVisible && (
-          <div style={centerStyle('88%')}>
-            <CustomButton
-              widthValue={50}
-              onClick={handleNextBtn}
-              buttonText="舉行報仇儀式"
-            />
+          <div>
+            <div style={centerStyle('82%')}>
+              <CustomButton
+                widthValue={50}
+                onClick={handleNextBtn}
+                buttonText="舉行報仇儀式"
+              />
+            </div>
+            <div style={centerStyle('90%')}>
+              <CustomButton
+                backgroundColor="white"
+                opacityValue={0.8}
+                textColor="grey"
+                widthValue={50}
+                onClick={handleAboutBtn}
+                buttonText="關於報仇靈堂"
+              />
+            </div>
           </div>
         )}
       </div>

@@ -6,7 +6,7 @@ import type { RootState } from '../GlobalRedux/store'
 import { useRouter } from 'next/navigation'
 import { clickPackContainer } from '../GlobalRedux/Features/appStates/packContainerSlice'
 import { useEffect, useState } from 'react'
-const Ballpage: React.FC = () => {
+const badfortunePage: React.FC = () => {
   const isClickPackageBtn = useSelector(
     (state: RootState) => state.packContainerState?.isclickBtn
   )
@@ -52,11 +52,12 @@ const Ballpage: React.FC = () => {
             width={250}
             height={250}
             objectFit="contain"
+            onClick={handleNextBtn}
           />
           <div className="text-xl" style={{ textAlign: 'center' }}>
             <p>惡籤</p>
           </div>
-          <div className="text-xl " style={{ textAlign: 'center' }}>
+          <div className="text-xl" style={{ textAlign: 'center' }}>
             <button className="mt-44" onClick={handleNextBtn}>
               點擊抽取今日報仇
             </button>
@@ -66,4 +67,4 @@ const Ballpage: React.FC = () => {
     </main>
   )
 }
-export default Ballpage
+export default badfortunePage
