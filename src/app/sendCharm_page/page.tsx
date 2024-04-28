@@ -71,7 +71,7 @@ const Ballpage: React.FC = () => {
           style={{
             left: '25%',
           }}
-          className="absolute color-white top-8 text-center leading-loose">
+          className="absolute color-white top-4 text-center leading-loose">
           <p>*執行報仇時請勿離開靈堂*</p>
           <p>今日報仇</p>
           <p>身心痠痛符</p>
