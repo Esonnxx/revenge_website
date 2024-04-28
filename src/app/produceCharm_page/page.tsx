@@ -55,14 +55,23 @@ const Ballpage: React.FC = () => {
               <p>請使用筆在符紙上寫下與身心疼痛相關的報仇</p>
             </div>
             <div
-              style={{ left: '4%', top: '40%', height: '35%' }}
-              className="absolute rounded-2xl w-11/12  bg-stone-600 opacity-60 text-center">
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                position: 'absolute',
+                left: '4%',
+                top: '40%',
+                height: '30%',
+                marginTop: '9%',
+              }}
+              className=" w-11/12 text-center">
               <Image
                 src="/3.png"
                 alt="Homepage"
                 layout="fixed"
-                width={380}
-                height={380}
+                width={300}
+                height={300}
                 objectFit="contain"
               />
             </div>
