@@ -41,7 +41,7 @@ const Ballpage: React.FC = () => {
             className="absolute left-0 w-full h-5/6 bg-black opacity-100 text-center">
             <div
               style={{ left: '12%', top: '2%' }}
-              className="absolute text-center">
+              className="absolute text-center text-white">
               <p className="text-xl">傳送符咒</p>
               <p>請將完成的符咒放在傳送口，將報仇傳送出去</p>
             </div>
@@ -71,7 +71,7 @@ const Ballpage: React.FC = () => {
           style={{
             left: '25%',
           }}
-          className="absolute color-white top-4 text-center leading-loose">
+          className="absolute color-white top-4 text-center leading-loose text-white">
           <p>*執行報仇時請勿離開靈堂*</p>
           <p>今日報仇</p>
           <p>身心痠痛符</p>

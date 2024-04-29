@@ -102,7 +102,7 @@ const Ballpage: React.FC = () => {
               textAlign: 'center',
             }}>
             <h1 style={{ color: 'purple' }}>今日報仇</h1>
-            <div className="ml-4 mt-2">
+            <div className="ml-4">
               <Image
                 src="/badcharm.png"
                 alt="badcharm"

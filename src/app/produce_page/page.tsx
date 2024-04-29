@@ -41,7 +41,7 @@ const Ballpage: React.FC = () => {
             className="absolute left-0 w-full h-5/6 bg-black opacity-100 text-center">
             <div
               style={{ left: '4%', top: '10%' }}
-              className="absolute rounded-2xl w-11/12 h-1/6 bg-stone-600 opacity-60 text-center p-1">
+              className="absolute rounded-2xl w-11/12 h-1/6 bg-stone-600 opacity-60 text-center p-1 text-white">
               <p>符水</p>
               <p>辛酸</p>
               <p>
@@ -50,19 +50,28 @@ const Ballpage: React.FC = () => {
             </div>
             <div
               style={{ left: '15%', top: '30%' }}
-              className="absolute text-center">
+              className="absolute text-center text-white">
               <p className="text-xl">調製符水</p>
               <p>請將杯子放置於凹槽中，符水會開始調製</p>
             </div>
             <div
-              style={{ left: '4%', top: '40%', height: '35%' }}
-              className="absolute rounded-2xl w-11/12  bg-stone-600 opacity-60 text-center">
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                position: 'absolute',
+                left: '4%',
+                top: '40%',
+                height: '30%',
+                marginTop: '9%',
+              }}
+              className=" w-11/12 text-center">
               <Image
                 src="/1.gif"
                 alt="1"
                 layout="fixed"
-                width={380}
-                height={380}
+                width={300}
+                height={300}
                 objectFit="contain"
               />
             </div>
@@ -80,7 +89,7 @@ const Ballpage: React.FC = () => {
           style={{
             left: '25%',
           }}
-          className="absolute color-white top-4 text-center leading-loose">
+          className="absolute color-white text-white top-4 text-center leading-loose">
           <p>*執行報仇時請勿離開靈堂*</p>
           <p>今日報仇</p>
           <p>身心痠痛符</p>

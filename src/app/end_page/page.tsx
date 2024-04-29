@@ -71,7 +71,7 @@ const Ballpage: React.FC = () => {
             layout="fill"
             objectFit="cover"
           />
-          <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50">
+          <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50 text-white">
             <div
               style={{ left: '30%', top: '60%' }}
               className="absolute text-center">

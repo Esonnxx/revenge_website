@@ -41,7 +41,7 @@ const Ballpage: React.FC = () => {
             className="absolute left-0 w-full h-5/6 bg-black opacity-100 text-center">
             <div
               style={{ left: '4%', top: '10%' }}
-              className="absolute rounded-2xl w-11/12 h-1/6 bg-stone-600 opacity-60 text-center p-1">
+              className="absolute rounded-2xl w-11/12 h-1/6 bg-stone-600 opacity-60 text-center p-1 text-white">
               <p>符咒</p>
               <p>身心痠痛符</p>
               <p>
@@ -50,7 +50,7 @@ const Ballpage: React.FC = () => {
             </div>
             <div
               style={{ left: '12%', top: '30%' }}
-              className="absolute text-center">
+              className="absolute text-center text-white">
               <p className="text-xl">製作符咒</p>
               <p>請使用筆在符紙上寫下與身心疼痛相關的報仇</p>
             </div>
@@ -89,7 +89,7 @@ const Ballpage: React.FC = () => {
           style={{
             left: '25%',
           }}
-          className="absolute color-white top-4 text-center leading-loose">
+          className="absolute color-white top-4 text-center leading-loose text-white">
           <p>*執行報仇時請勿離開靈堂*</p>
           <p>今日報仇</p>
           <p>身心痠痛符</p>
