@@ -63,7 +63,7 @@ const Ballpage: React.FC = () => {
 
         {!isClickExcuteButton && (
           <div
-            className="text-xl"
+            className="text-xl text-white"
             style={{
               textAlign: 'center',
               position: 'absolute',
@@ -75,7 +75,7 @@ const Ballpage: React.FC = () => {
         )}
         {!isClickExcuteButton && (
           <div
-            className="text-xl "
+            className="text-xl text-white"
             style={{
               position: 'absolute',
               top: '85%',
