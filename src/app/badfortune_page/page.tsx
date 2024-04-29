@@ -54,10 +54,10 @@ const BadfortunePage: React.FC = () => {
             objectFit="contain"
             onClick={handleNextBtn}
           />
-          <div className="text-xl" style={{ textAlign: 'center' }}>
+          <div className="text-xl text-white" style={{ textAlign: 'center' }}>
             <p>惡籤</p>
           </div>
-          <div className="text-xl" style={{ textAlign: 'center' }}>
+          <div className="text-xl text-white" style={{ textAlign: 'center' }}>
             <button className="mt-44" onClick={handleNextBtn}>
               點擊抽取今日報仇
             </button>
