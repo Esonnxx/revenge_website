@@ -49,7 +49,7 @@ const Ballpage: React.FC = () => {
               style={{ left: '4%', top: '12%', height: '40%' }}
               className="absolute rounded-2xl w-11/12  bg-stone-600 opacity-60 text-center">
               <Image
-                src="/4.gif"
+                src="/3.gif"
                 alt="Homepage"
                 layout="fixed"
                 width={400}

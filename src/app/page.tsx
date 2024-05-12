@@ -12,7 +12,7 @@ export default function Home() {
   const isOpened = useSelector((state: RootState) => state.appState?.isOpen)
   const dispatch = useDispatch()
   const router = useRouter()
-  const [guideIsVisible, setguideIsVisible] = useState<boolean>(true)
+  const [guideIsVisible, setguideIsVisible] = useState<boolean>(false)
   const [isClickNextButton, setClickNextButton] = useState<boolean>(false)
   const handleBtn = () => {
     setguideIsVisible(false)

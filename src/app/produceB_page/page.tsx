@@ -19,7 +19,7 @@ const Ballpage: React.FC = () => {
 
   useEffect(() => {
     if (isClickNextButton) {
-      router.push('/produceCharm_page')
+      router.push('/sendCharm_page')
     }
     setClickNextButton(false)
   }, [isClickNextButton, router])
@@ -39,20 +39,33 @@ const Ballpage: React.FC = () => {
               top: '16.66%',
             }}
             className="absolute left-0 w-full h-5/6 bg-black opacity-100 text-center">
+            <div className="flex items-center mt-10">
+              <div className="flex-grow h-2 bg-purple-500"></div>
+              <div className=" text-purple-500"></div>
+              <div className="flex-grow h-2 bg-purple-500"></div>
+              <div className="text-purple-500"></div>
+              <div className="flex-grow h-2 bg-white"></div>
+            </div>
             <div
               style={{ left: '4%', top: '10%' }}
               className="absolute rounded-2xl w-11/12 h-1/6 bg-stone-600 opacity-60 text-center p-1 text-white">
               <p>符水</p>
-              <p>辛酸</p>
+              <p className="font-extrabold">辛酸</p>
               <p>
                 給予使用身心痠痛符者能量，能夠注入與身心疼痛相關的報仇並傳遞
               </p>
             </div>
             <div
-              style={{ left: '20%', top: '30%' }}
-              className="absolute text-center text-white">
-              <p className="text-xl">調製符水</p>
-              <p>請默念三遍咒語，為符水注入法力</p>
+              style={{ left: '4%', top: '30%' }}
+              className="absolute text-center text-white w-11/12">
+              <div className="flex items-center mt-3 mb-3">
+                <div className="flex-grow h-px bg-purple-500"></div>
+                <div className=" mx-5 font-extrabold text-purple-500">
+                  調製符水
+                </div>
+                <div className="flex-grow h-px bg-purple-500"></div>
+              </div>
+              <p>對準麥克風用力吹一口氣，獻上符水</p>
             </div>
             <div
               style={{
@@ -67,7 +80,7 @@ const Ballpage: React.FC = () => {
               }}
               className="w-11/12 text-center">
               <Image
-                src="/2.png"
+                src="/2.gif"
                 alt="2"
                 layout="fixed"
                 width={300}

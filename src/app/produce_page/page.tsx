@@ -39,6 +39,14 @@ const Ballpage: React.FC = () => {
               top: '16.66%',
             }}
             className="absolute left-0 w-full h-5/6 bg-black opacity-100 text-center">
+            <div className="flex items-center mt-10">
+              <div className="flex-grow h-2 bg-purple-500"></div>
+              <div className=" text-purple-500"></div>
+              <div className="flex-grow h-2 bg-white"></div>
+              <div className="text-purple-500"></div>
+              <div className="flex-grow h-2 bg-white"></div>
+            </div>
+
             <div
               style={{ left: '4%', top: '10%' }}
               className="absolute rounded-2xl w-11/12 h-1/6 bg-stone-600 opacity-60 text-center p-1 text-white">

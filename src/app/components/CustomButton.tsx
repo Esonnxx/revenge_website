@@ -26,7 +26,7 @@ const CustomButton: React.FC<CustomButtonProps> = ({
         transform: 'translate(-50%, -50%)',
         width: { widthValue } + '%',
         padding: '15px',
-        borderRadius: '20px',
+        borderRadius: '35px',
         outline: 'none',
         color: textColor,
         fontWeight: 'bold',

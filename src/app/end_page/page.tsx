@@ -45,22 +45,15 @@ const Ballpage: React.FC = () => {
       title: '符咒效力已生效',
       description: '',
     },
-    delay: 4000,
+    delay: 2000,
   })
-
-  const handleNextButton = () => {
-    console.log('clicked next btn')
-    setClickNextButton(true)
-    console.log()
-  }
-
   useEffect(() => {
-    if (isClickNextButton) {
-      router.push('/produceB_page')
-    }
-    setClickNextButton(false)
-  }, [isClickNextButton, router])
+    const timeoutId = setTimeout(() => {
+      router.push('/')
+    }, 3500)
 
+    return () => clearTimeout(timeoutId)
+  }, [router])
   return (
     <main>
       <div className="relative">
