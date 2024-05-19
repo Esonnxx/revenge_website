@@ -68,7 +68,7 @@ const Ballpage: React.FC = () => {
               textAlign: 'center',
               position: 'absolute',
               top: '70%',
-              right: '40%',
+              right: '37%',
             }}>
             <p>身心痠痛符</p>
           </div>
@@ -79,7 +79,7 @@ const Ballpage: React.FC = () => {
             style={{
               position: 'absolute',
               top: '85%',
-              right: '32.5%',
+              right: '30%',
             }}>
             <button onClick={handleExcuteButton}>點擊執行今日報仇</button>
           </div>
