@@ -120,7 +120,7 @@ const Ballpage: React.FC = () => {
                 <div className="flex-grow h-px bg-purple-500"></div>
               </div>
             </div>
-            <p style={{ color: 'black', marginTop: '5px' }}>
+            <p style={{ color: 'black', marginTop: '5px', fontSize: '80%' }}>
               想像過去遭受的辛酸場景，調製所需符水"心酸"並喝下，之後依照指示繪製符咒，將對惡人的報仇內容具體寫下。
             </p>
             <p style={{ color: 'black', marginTop: '5px' }}>
