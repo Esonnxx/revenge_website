@@ -74,7 +74,7 @@ const Ballpage: React.FC = () => {
                 alignItems: 'center',
                 position: 'absolute',
                 left: '4%',
-                top: '35%',
+                top: '45%',
                 height: '30%',
                 marginTop: '9%',
               }}
