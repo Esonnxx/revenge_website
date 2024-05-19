@@ -58,7 +58,7 @@ const BadfortunePage: React.FC = () => {
             <p>惡籤</p>
           </div>
           <div className="text-xl text-white" style={{ textAlign: 'center' }}>
-            <button className="mt-44" onClick={handleNextBtn}>
+            <button className="mt-36" onClick={handleNextBtn}>
               點擊抽取今日報仇
             </button>
           </div>
