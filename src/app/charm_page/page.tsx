@@ -102,13 +102,13 @@ const Ballpage: React.FC = () => {
               textAlign: 'center',
             }}>
             <h1 style={{ color: 'purple' }}>今日報仇</h1>
-            <div className="ml-4">
+            <div className="ml-8">
               <Image
                 src="/badcharm.png"
                 alt="badcharm"
                 layout="fixed"
-                width={200}
-                height={200}
+                width={150}
+                height={150}
                 objectFit="contain"
               />
             </div>
@@ -120,10 +120,10 @@ const Ballpage: React.FC = () => {
                 <div className="flex-grow h-px bg-purple-500"></div>
               </div>
             </div>
-            <p style={{ color: 'black', marginTop: '10px' }}>
+            <p style={{ color: 'black', marginTop: '5px' }}>
               想像過去遭受的辛酸場景，調製所需符水"心酸"並喝下，之後依照指示繪製符咒，將對惡人的報仇內容具體寫下。
             </p>
-            <p style={{ color: 'black', marginTop: '10px' }}>
+            <p style={{ color: 'black', marginTop: '5px' }}>
               最後把符咒傳送即完成報仇儀式。
             </p>
             <div
