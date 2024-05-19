@@ -48,7 +48,7 @@ const Ballpage: React.FC = () => {
             </div>
 
             <div
-              style={{ left: '4%', top: '10%' }}
+              style={{ left: '4%', top: '10%', fontSize: '80%' }}
               className="absolute rounded-2xl w-11/12 h-1/6 bg-stone-600 opacity-60 text-center p-1 text-white">
               <p>符水</p>
               <p>辛酸</p>
